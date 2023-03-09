@@ -98,19 +98,9 @@ body {
     color: var(--main-title-color);
 }
 
-.hero-title {
-    text-align: center
-}
-
 .hero-btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #ffffff;
     background: #4D5AE5;
-    cursor: pointer;
 }
 
 .hero-btn:is(:hover, :focus) {
@@ -217,14 +207,8 @@ body {
 .portfolio-item {}
 
 .portfolio-btn {
-    font-family: inherit;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
     color: #4D5AE5;
     background: #F4F4FD;
-    cursor: pointer;
 }
 
 .portfolio-btn:is(:hover, :focus) {
