@@ -360,13 +360,11 @@ img {
 }
 
 .portfolio-item {
-    border-left: 1px solid #E7E9FC;
-    border-right: 1px solid #E7E9FC;
+
     border-bottom: 1px solid #E7E9FC;
 }
 
 .portfolio-item:is(:hover, :focus) {
-    border-left: 1px solid #F4F4FD;
-     border-right: 1px solid #F4F4FD;
-      border-bottom: 1px solid #F4F4FD;
+
+    border-bottom: 1px solid #F4F4FD;
 }
