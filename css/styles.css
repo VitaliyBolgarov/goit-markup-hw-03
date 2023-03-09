@@ -160,6 +160,7 @@ img {
 /**----------------------HERO---------------------*/
 
 .hero {
+    height: 600px;
     text-align: center;
 }
 
@@ -168,7 +169,11 @@ img {
 }
 
 .hero-title {
+    max-width: 496px;
+    margin-left: auto;
+    margin-right: auto;
     margin-bottom: 48px;
+    padding-top: 188px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -176,6 +181,10 @@ img {
 }
 
 .hero-btn {
+    margin-top: 48px;
+    margin-bottom: 188px;
+    padding: 16px 32px;
+    text-transform: none;
     color: #ffffff;
     background: #4D5AE5;
 
@@ -254,8 +263,8 @@ img {
 
 .team {
     padding-top: 120px;
-    padding-bottom: 110px;
-    margin-bottom: 120px;
+    padding-bottom: 120px;
+
 
     background: #F4F4FD;
 }
@@ -280,15 +289,31 @@ img {
 .team-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 }
 
-.team-item {}
+.team-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 32px 0;
+}
+
+.section-text {
+    margin-top: 8px;
+    margin-bottom: 32px;
+}
 
 /**----------------------FOOTER---------------------*/
 
 .footer {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    height: 312px;
     background: #2E2F42;
-    margin-top: 120px;
 }
 
 .footer-logo-web {}
@@ -302,6 +327,7 @@ img {
     line-height: 1.5;
     color: #E7E9FC;
     max-width: 264px;
+    margin-top: 16px;
 }
 
 /**----------------------PORTFOLIO---------------------*/
@@ -327,6 +353,7 @@ img {
 }
 
 .portfolio-btn {
+    border: 0;
     color: #4D5AE5;
     background: #F4F4FD;
 }
@@ -358,7 +385,7 @@ img {
 .card-text {
     display: flex;
     flex-wrap: wrap;
-    flex-direction:column;
+    flex-direction: column;
 }
 
 .card-text {
