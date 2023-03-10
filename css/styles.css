@@ -159,9 +159,13 @@ img {
 
 /**----------------------HERO---------------------*/
 
+
 .hero {
-    height: 600px;
+    max-width: 1440px;
+    max-height: 600px;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero {
@@ -208,11 +212,10 @@ img {
     gap: 24px;
 }
 
-.proposition-list {
-    margin: 120px 0;
-}
+.proposition-list {}
 
 .proposition-item {
+    padding: 120px 0;
     max-width: 264px;
 }
 
@@ -236,6 +239,7 @@ img {
 .work {}
 
 .work-title {
+    padding-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -253,8 +257,9 @@ img {
 .work-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 24px;
 
-    margin-bottom: 120px;
+    padding-bottom: 120px;
 }
 
 .work-item {}
@@ -298,12 +303,11 @@ img {
     justify-content: center;
     align-items: center;
     background-color: #ffffff;
-    padding: 32px 0;
+    padding: 32px 16px;
 }
 
 .section-text {
-    margin-top: 8px;
-    margin-bottom: 32px;
+    padding-top: 8px;
 }
 
 /**----------------------FOOTER---------------------*/
@@ -313,6 +317,9 @@ img {
     flex-wrap: wrap;
     align-content: center;
     height: 312px;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
     background: #2E2F42;
 }
 
@@ -327,7 +334,7 @@ img {
     line-height: 1.5;
     color: #E7E9FC;
     max-width: 264px;
-    margin-top: 16px;
+    padding-top: 16px;
 }
 
 /**----------------------PORTFOLIO---------------------*/
@@ -342,8 +349,8 @@ img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 108px;
-    margin-bottom: 60px;
+    padding-top: 108px;
+    padding-bottom: 60px;
 
     width: 586px;
 }
@@ -353,7 +360,7 @@ img {
 }
 
 .portfolio-btn {
-    border: 0;
+    border: transparent;
     color: #4D5AE5;
     background: #F4F4FD;
 }
@@ -373,7 +380,7 @@ img {
     margin-bottom: 120px;
 }
 
-.portfolio-item {
+.portfolio-item:is(:hover, :focus) .portfolio-item {
     max-width: calc((100% - 48) / 3);
 }
 
