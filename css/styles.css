@@ -184,6 +184,7 @@ img {
 }
 
 .hero-btn {
+    border: transparent;
     padding: 16px 32px;
     text-transform: none;
     color: #ffffff;
