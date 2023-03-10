@@ -161,7 +161,7 @@ img {
 
 
 .hero {
-    max-width: 1440px;
+    flex-basis: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -322,7 +322,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-    max-width: 1440px;
+    flex-basis: auto;
     margin-left: auto;
     margin-right: auto;
     padding-top: 100px;
@@ -349,17 +349,21 @@ img {
 
 /**----------------------PORTFOLIO---------------------*/
 
-.portfolio {}
-
-.flex-cont {
+.portfolio {
     padding: 120px 0;
 }
+
+.main-title {
+    display: none;
+}
+
+.flex-cont {}
 
 .buttons-list {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    flex-basis: auto;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -393,15 +397,11 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 48px 24px;
-
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 120px;
+    flex-basis: auto;
 }
 
 .portfolio-item:is(:hover, :focus) .portfolio-item {
-    max-width: calc((100% - 48) / 3);
-    height: 48px;
+    flex-basis: auto;
 }
 
 .section-title {}
