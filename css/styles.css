@@ -165,6 +165,7 @@ img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 188px 0;
 }
 
 .hero {
@@ -176,7 +177,6 @@ img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 48px;
-    padding-top: 188px;
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
@@ -184,8 +184,6 @@ img {
 }
 
 .hero-btn {
-    margin-top: 48px;
-    margin-bottom: 188px;
     padding: 16px 32px;
     text-transform: none;
     color: #ffffff;
@@ -209,12 +207,12 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    padding: 120px 0;
 }
 
 .proposition-list {}
 
 .proposition-item {
-    padding: 120px 0;
     max-width: 264px;
 }
 
@@ -231,14 +229,17 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+    margin-top: 8px;
 }
 
 /**----------------------WORK---------------------*/
 
-.work {}
+.work {
+    padding-bottom: 120px;
+}
 
 .work-title {
-    padding-bottom: 72px;
+    margin-bottom: 72px;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -257,8 +258,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
-
-    padding-bottom: 120px;
 }
 
 .work-item {}
@@ -314,9 +313,7 @@ img {
     padding: 32px 16px;
 }
 
-.section-text {
-    padding-top: 8px;
-}
+.section-text {}
 
 /**----------------------FOOTER---------------------*/
 
@@ -327,13 +324,11 @@ img {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
     background: #2E2F42;
 }
 
-.footer-con {
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
 
 .footer-logo-web {
     margin-left: auto;
@@ -355,6 +350,10 @@ img {
 
 .portfolio {}
 
+.flex-cont {
+    padding: 120px 0;
+}
+
 .buttons-list {
     display: flex;
     align-items: center;
@@ -363,20 +362,25 @@ img {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 108px;
-    padding-bottom: 60px;
-
-    width: 586px;
+    margin-bottom: 60px;
 }
 
 .buttons-list .item+.item {
     margin-left: 24px;
 }
 
+.buttons-item {}
+
 .portfolio-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
     border: transparent;
+    text-transform: none;
     color: #4D5AE5;
     background: #F4F4FD;
+    padding: 12px 24px;
 }
 
 .portfolio-btn:is(:hover, :focus) {
@@ -396,16 +400,18 @@ img {
 
 .portfolio-item:is(:hover, :focus) .portfolio-item {
     max-width: calc((100% - 48) / 3);
+    height: 48px;
 }
 
-.section-title {
-    margin-top: 32px;
-}
+.section-title {}
 
 .card-text {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    padding-top: 32px;
+    padding-left: 16px;
+    padding-bottom: 32px;
 }
 
 .card-text {
