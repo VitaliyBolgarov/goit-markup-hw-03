@@ -323,9 +323,6 @@ img {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
-
-    width: 1440px;
-
     flex-basis: auto;
     margin-left: auto;
     margin-right: auto;
@@ -334,6 +331,10 @@ img {
     background-color: #2E2F42;
 }
 
+.left-part {
+    max-width: 264px;
+    /*margin-right: 120px;*/
+}
 
 .footer-logo-web {
     margin-left: auto;
@@ -347,8 +348,7 @@ img {
     font-size: 16px;
     line-height: 1.5;
     color: #E7E9FC;
-    max-width: 264px;
-    padding-top: 16px;
+    margin-top: 16px;
 }
 
 /**----------------------PORTFOLIO---------------------*/
