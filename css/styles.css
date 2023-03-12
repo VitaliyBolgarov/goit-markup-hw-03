@@ -217,8 +217,8 @@ img {
 .features-list {}
 
 .features-item {
-    flex-basis: auto;
-    max-width: 264px;
+    flex-basis: calc((100% - 3 * 24px)/4);
+
 }
 
 .section-title {
@@ -262,10 +262,12 @@ img {
 .work-list {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 20px;
 }
 
-.work-item {}
+.work-item {
+    flex-basis: calc((100% - 40px)/3);
+}
 
 /**----------------------TEAM---------------------*/
 
@@ -304,9 +306,11 @@ img {
 }
 
 .team-item {
+    flex-basis: calc((100% - 3 * 24px)/4);
     background: #FFFFFF;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
     border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    overflow: hidden;
 }
 
 .team-photo {
@@ -409,7 +413,7 @@ img {
 
 .portfolio-item:is(:hover, :focus) .portfolio-item {
 
-    max-width: calc((100% - 48px)/3);
+    flex-basis: calc((100% - 48px)/3);
 }
 
 .section-title {}
